@@ -5,6 +5,8 @@ Gehost via Heroku: https://opdrachsecurityevalutatie.herokuapp.com/
 
 ## Uitgevoerde testen
  - DAST
+     - Gebruikte tool: https://www.zaproxy.org/
+     - Resultaten: <img src="https://cdn.discordapp.com/attachments/649230019817635854/1013015643827744788/unknown.png"/>
  - SCA
  - Penetration testing AKA ethical hacking
  - SAST
