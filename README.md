@@ -6,7 +6,9 @@ Gehost via Heroku: https://opdrachsecurityevalutatie.herokuapp.com/
 ## Uitgevoerde testen
  - DAST
      - Gebruikte tool: https://www.zaproxy.org/
-     - Resultaten: <img src="https://cdn.discordapp.com/attachments/649230019817635854/1013015643827744788/unknown.png"/>
+     - <img src="https://cdn.discordapp.com/attachments/649230019817635854/1013015643827744788/unknown.png"/>
+     - Webapplicatie is niet beschermd tegen ClickJacking. Dit opgelost worden met het toevoegen van een header.
+     - Meerdere cookies kunnen uitgelezen worden met JavaScript. Hier moeten ook stappen voor genomen worden om hierop te beveiligen.
  - SCA
  - Penetration testing AKA ethical hacking
  - SAST
