@@ -1,7 +1,8 @@
-# OpdrachtSecurityEvaluatie
-Dit is een copy van https://github.com/T3hArco/RFIDPayments om op security te evalueren
+# Opdracht Security evaluatie
+Dit is een copy van https://github.com/T3hArco/RFIDPayments om op security te evalueren.
 
-DAST,
-SCA,
-Penetration testing AKA ethical hacking,
-SAST.  
+## Uitgevoerde testen
+ - DAST
+ - SCA
+ - Penetration testing AKA ethical hacking
+ - SAST
