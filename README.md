@@ -15,12 +15,13 @@ Gehost via Heroku: https://opdrachsecurityevalutatie.herokuapp.com/
      - Webapplicatie is door het gebruikt van HTTP paramter flows zeer gevoelig aan Cross-Site Scripting (XSS) deze wensen vervangen te worden. (High severity issue)
      - Een insecure/outdated hash is ingebruik in de webapplicatie en dient vervangen te worden. (Medium severity issue)
      - In mysqli staan hardcoded credentials die uitgelezen kunnen worden door iemand met slechte bedoelingen. Deze dienen ergens op een veilige plek opgeslaan te    worden. (Medium severity issue)
+     - Meerdere tools wijn toegevoegd aan deze github repo die eigen rapporten opstellen.
  - Penetration testing AKA ethical hacking
      - Security headers wensen toegevoegd te worden: https://web.dev/security-headers/
      - De Database is niet meer actief en kan niet grondig getest worden.
  - SAST
      - Gebruikte tools: https://semgrep.dev/ & https://www.sonarqube.org/
-     - Geen nieuwe problemen gevonden
+     - Geen nieuwe problemen gevonden tegenover eerder vermelde problemen.
  - Evaluatiecriteria ivm wachtwoorden
      - De gebruikte hash: sha1 is niet geen secure algoritme en dienst vervangen te worden
      - Er worden hardcodes credentials gebruikt in de applicatie die onderschept kunnen worden.
