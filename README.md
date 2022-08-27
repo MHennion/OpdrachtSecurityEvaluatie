@@ -16,6 +16,7 @@ Gehost via Heroku: https://opdrachsecurityevalutatie.herokuapp.com/
      - Een insecure/outdated hash is ingebruik in de webapplicatie en dient vervangen te worden. (Medium severity issue)
      - In mysqli staan hardcoded credentials die uitgelezen kunnen worden door iemand met slechte bedoelingen. Deze dienen ergens op een veilige plek opgeslaan te    worden. (Medium severity issue)
      - Meerdere tools wijn toegevoegd aan deze github repo die eigen rapporten opstellen.
+     - Dependabot heeft verschillende dependencies geupdate naar de nieuwste versie.
  - Penetration testing AKA ethical hacking
      - Security headers wensen toegevoegd te worden: https://web.dev/security-headers/
      - De Database is niet meer actief en kan niet grondig getest worden.
