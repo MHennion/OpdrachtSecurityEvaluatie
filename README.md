@@ -16,9 +16,15 @@ Gehost via Heroku: https://opdrachsecurityevalutatie.herokuapp.com/
      - Een insecure/outdated hash is ingebruik in de webapplicatie en dient vervangen te worden. (Medium severity issue)
      - In mysqli staan hardcoded credentials die uitgelezen kunnen worden door iemand met slechte bedoelingen. Deze dienen ergens op een veilige plek opgeslaan te    worden. (Medium severity issue)
  - Penetration testing AKA ethical hacking
+     - Security headers wensen toegevoegd te worden: https://web.dev/security-headers/
+     - De Database is niet meer actief en kan niet grondig getest worden.
  - SAST
+     - Gebruikte tools: https://semgrep.dev/ & https://www.sonarqube.org/
+     - Geen nieuwe problemen gevonden
  - Evaluatiecriteria ivm wachtwoorden
      - De gebruikte hash: sha1 is niet geen secure algoritme en dienst vervangen te worden
      - Er worden hardcodes credentials gebruikt in de applicatie die onderschept kunnen worden.
  - Evaluatiecriteria ivm HTTPS
      - Webapplicatie heeft geen HTTPS redirect. Dit is op verschillende manier op te lossen. Voorbeeld: https://stackoverflow.com/questions/5106313/redirecting-from-http-to-https-with-php
+ - API
+     - Voornamelijk gebruikt van GET requests. Sommige van deze requests kunnen omgezet worden naar POST requests die in het algemeen veiliger zijn. 
